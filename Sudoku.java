@@ -131,7 +131,7 @@ public class Sudoku extends javax.swing.JFrame {
          return solution(x, y); 
         } 
         boolean b=false;
-        for(int num=0;num<=9;num++){
+        for(int num=1;num<=9;num++){
             if(isValid(i,j,num)){
                 addToGrid(i,j,num);
                 solution[i][j]=num;
